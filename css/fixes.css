@@ -1,0 +1,20 @@
+.features-main .single-list-feature i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    background: #fff;
+    color: #b59a4c;
+    display: block;
+    border-radius: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: block;
+    border-radius: 100%;
+    font-size: 24px;
+    text-align: center;
+}

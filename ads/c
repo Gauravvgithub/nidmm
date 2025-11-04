@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <title>NIDMM – Most Trusted Digital Marketing Training Institute In India
+  </title>
+  <meta
+    content="Choose NIDMM, India's top rated Cloud hosting provider with best-in-class cloud infrastrucute and services. We have Tier-4 and Tier-3 data centers that are operated by Industry experts."
+    name="description">
+  <meta name="keywords" content="NIDMM">
+  <meta name="robots" content="noindex,nofollow,all">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" media="all">
+  <link rel="stylesheet" href="../css/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css" media="all">
+  <link rel="stylesheet" href="./styles/services-main.css" media="all">
+  <link rel="stylesheet" href="./styles/owl.carousel.min.css" media="all">
+  <link rel="stylesheet" href="./styles/owl.theme.default.min.css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/landingpage.css">
+  <link rel="stylesheet" href="./assets/css/pop.css">
+  <link rel="stylesheet" href="./styles/ads.css">
+
+  <link rel="stylesheet" href="./splide-default.min.css">
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+  <script async="" src="https://u.heatmap.it/log.js"></script>
+  <script async="" src="./js/pop.js"></script>
+</head>
+
+<body class="section-bg-dark">
+  <!-- scripts - slick  -->
+
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        cssEase: 'linear',
+
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+
+
+    // teams-slider
+
+    $(document).ready(function () {
+      $('.teams-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        // cssEase: 'linear',
+
+
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }]
+      });
+    });
+  </script>
+
+  <div class="bg-white sticky-top ">
+    <div class="container py-0">
+      <div class="row align-items-center  ">
+        <div class="col-lg-4 col-md-12 col-sm-12  " style="text-align:center">
+          <img src="./images/icon/logo.png" height="100px" alt="" class="center">
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 text-center mb-2 mb-lg-0">
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12 text-center mb-2 mb-lg-0">
+          <a href="#register" class="cstm-scd-btn text-light cstm-scd-btn f600 ffmont px-2 py-2">
+            Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="mobile-view">
+
+  </div>
+
+  <header class="services_banner section-bg-light">
+    <section class="py-5 ">
+      <div class="container py-0 py-lg-5 text-center">
+        <div class="row">
+          <div class="col-lg-8 head-content">
+            <p class="text-dark h2 fw-bold oswald embark">Embark on your Digital Marketing Career Journey with <span
+                class="fw-bold nidmm oswald" style="color:orangered;">NIDMM</span></p>
+            <p class="h5 text-dark assured">○ Assured Placement ○ Live Projects ○&nbsp;Professional Educators </p> <br>
+            <p class="display-4 fw-bold oswald advanced blue">Advanced Digital Marketing Course <br><br> </p>
+            <ul class="features">
+              <li>One-to-one Mentoring</li>
+              <li>Lifetime Membership</li>
+              <li>100% Placement <span style='color:red;text-decoration:line-through'><span
+                    style='color:black'>Assistance</span></span> Guarantee</li>
+              <li>50+ Live Projects and 500+ Learning Hours</li>
+              <li>Dual Certifications from <span class="text-blue">NMP</span> and <span class="text-blue"> NIDMM</span>
+              </li>
+            </ul>
+            <div class="cta">
+              <!-- <p><a href="#register" class=" cstm-prm-btn f600 ffmont">Apply&nbsp;Now</a></p> -->
+              <p><a class=" cstm-scd-btn f600 ffmont" id="popup__toggle">Join&nbsp;Now</a>
+              </p>
+
+              <!-- <button id="popup__toggle">Open popup!</button> -->
+              <div class="popup__overlay">
+                <div class="popup">
+                  <a href="#" class="popup__close">&#10005;</a>
+                  <h4 class="p-3">Please Fill This Form to Download Syllabus</h4>
+                  <form id="formail" class="contact-form" action="mail.php" method="post" role="form">
+                    <div class="row">
+                      <div class="form-group mb-2 ">
+                        <input type="text" id="name" name="name" placeholder="Name*" class="form-control"
+                          maxlength="70">
+                      </div>
+                      <div class="form-group mb-2 ">
+                        <input type="text" id="email" name="email" placeholder="Email*" class="form-control"
+                          maxlength="70">
+                      </div>
+                    </div>
+                    <div class="form-group mb-2">
+                      <input type="text" id="contact" name="phone" placeholder="Contact No*" class="form-control"
+                        maxlength="13">
+                    </div>
+                    <p class="form-group text-center pt-3">
+                      <input type="submit" class="btn text-light btn-block new-btn" name="submit" value="Submit"
+                        style="margin:0; padding:0;">
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="cert mt-5">
+              <span>Our certification conforms to the standards of</span>
+              <img src="./images/google.png" alt="" height="20px">
+              <img src="./images/facebook.png" alt="" height="18px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <section class="section-bg-dark">
+    <div class="container box-container mt-5 mb-0">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 mb-4">
+          <div class="card card-body text-center card-c shadow card-shadow-effect h-100">
+            <div class="p-1 btn-round mx-auto bg-icons ">
+              <!-- <img src="./images/icon/web design.png" style="width:64px" alt=""> -->
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 "><a href="#nfc-mail" class="stretched-link scroll">
+                Start Date
+                <br> <span style="font-size : 18px; font-weight:100"> 5<sup>th</sup> April</span>
+              </a></p>
+            <div class="btn-1"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card card-body text-center card-c shadow card-shadow-effect h-100">
+            <div class="p-1  btn-round mx-auto">
+              <!-- <img src="./images/icon/web develop.png" style="width:64px" alt=""> -->
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 "><a href="#nfc-mail" class="stretched-link scroll">Eligibility:
+                <br> <span style="font-size : 18px; font-weight:100"> 10+2 or
+                  above </span>
+              </a></p>
+
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card card-body text-center card-c shadow card-shadow-effect h-100">
+            <div class="p-1   btn-round mx-auto">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 "><a href="#nfc-mail" class="stretched-link scroll">Fees
+                Structure: <br> <span style="font-size : 18px; font-weight:100"> Flexible with EMI option</span>
+              </a></p>
+
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card card-body text-center card-c shadow card-shadow-effect h-100">
+            <div class="p-1   btn-round mx-auto">
+
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 "><a href="#nfc-vault" class="stretched-link scroll"> Apply
+                Now <span style="font-size : 18px; font-weight:100"> </span>
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- popup -->
+
+
+
+
+
+  <style>
+
+  </style>
+
+
+
+
+
+  <!--  -->
+  <section class="section-bg-light">
+    <div class="container">
+      <div class="row mt-4 mb-4">
+        <div class="col">
+          <div class="tools-covered text-center">
+            <h3 class="text-dark pt-5">Course Details<br></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 ol-md-6 col-sm-12 mb-4 ">
+          <div class="text-center border-1 border-warning icon-shadow vidya-card card-shadow-effect card-margin">
+            <div>
+              <div class="vidya-card-text">
+                <h4 class="text-center text-dark">3 Months</h4>
+                <p class="text-start">Duration: Over 2000 hrs in training
+                  <br>
+                  <br>
+                  Live Projects: Gain practical experience from ongoing projects
+                  <br><br>Pick your best: Three courses on different levels tailored to your needs
+                  <br><br>
+                  Learn all the core and fundamental aspects of digital marketing. This beginner course will familiarize
+                  you with what works in digital marketing.
+                  <br> <br>
+                  On successful completion, you will get an internship certification from NIDMM.
+                </p>
+                <div class="course-btn-wrapper">
+                  <div class="course-btn">
+                    one two
+                  </div>
+                  <div class="course-btn">
+                    one two
+                  </div>
+                  <div class="course-btn">
+                    one two
+                  </div>
+                  <div class="course-btn">
+                    one two
+                  </div>
+                  <div class="course-btn">
+                    one two
+                  </div>
+                </div>
+                <button class=" mt-5 cstm-prm-btn">Apply Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 ol-md-6 col-sm-12 mb-4 ">
+          <div class="text-center border-1 border-warning icon-shadow vidya-card card-shadow-effect card-margin">
+            <div>
+              <div class="vidya-card-text">
+                <h4 class="text-center text-dark">6 Months</h4>
+                <p class="text-start">Choose your course: Pick from the three comprehensive courses
+                  <br>
+                  <br>
+                  Mentors: Training under the best mentors
+                  <br><br>
+                  Internship: In-built Internship program
+                  <br><br>
+                  This course dives deeper into digital marketing. Learn all the elements at the proficiency level.
+                  <br> <br>
+                  This advanced digital marketing course will make you proficient in all digital marketing factors.
+                </p>
+                <button class="mt-5 cstm-prm-btn">Apply Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-xl-4 col-lg-4 ol-md-12 col-sm-12 mb-4 ">
+          <div class="text-center border-1 border-warning icon-shadow vidya-card card-shadow-effect card-margin">
+            <div>
+              <div class="vidya-card-text">
+                <h4 class="text-center text-dark">1 Year</h4>
+                <p class="text-start">Live projects: Study and operate live projects side by side.
+                  <br>
+                  <br>
+                  Duration: This course will last 12 months.
+
+                  <br><br>
+                  Timings: Each class lasts for 8 hours.
+                  <br><br>
+                  Dig the core of digital marketing and completely master all insights and techniques of digital
+                  marketing.
+                  <br> <br>
+                  Explore a wide range of career options in digital marketing and enhance your skills.
+                </p>
+                <button class="mt-5 cstm-prm-btn">Apply Now</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-bg-light mobile-courses">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <p class="f700 text-center pb-4 h2"> <span class="highlight-head">Our</span> Courses/Specialized Courses </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="card-head p-1 btn-round mx-auto bg-icons ">
+              <img src="./images/icon/new/seo.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-cloud" class="stretched-link scroll">
+                SEO Training Courses
+              </a></p>
+            <p class="py-2 p-left-aligned">Want to know how to rank higher on Google and drive more organic traffic to
+              your website? Consider Nidmm's SEO Training Courses! You'll learn how to:
+            </p>
+            <ul>
+              <li>Optimize your website for search engines</li>
+              <li>Conduct keyword research to target the right audience</li>
+              <li>Build quality backlinks to boost your rankings</li>
+              <li>And much more!</li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1  btn-round mx-auto">
+              <img src="./images/icon/new/social.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-mail" class="stretched-link scroll">Social
+                Media Optimization Course
+              </a></p>
+            <p class="py-2 p-left-aligned">
+              Ready to take your social media presence to the next level and attract more followers and customers?
+              Nidmm's Social Media Optimization Course is here to help! You'll learn how to:
+            </p>
+            <ul>
+              <li>Develop a winning social media strategy that aligns with your business goals</li>
+              <li>Create engaging content that resonates with your audience</li>
+              <li>Use social media analytics to track your performance and make data-driven decisions</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1   btn-round mx-auto">
+              <img src="./images/icon/new/ppc.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-vault" class="stretched-link scroll">PPC
+                Training Course
+              </a></p>
+            <p class="py-2 p-left-aligned">Want to drive more traffic and increase conversions for your business? Look
+              no further than Nidmm's PPC Training Course! Learn how to:
+            </p>
+            <ul>
+              <li>Create effective PPC campaigns that get results</li>
+              <li>Use Google Ads, Bing Ads, and other platforms to reach your target audience</li>
+              <li>Optimize your campaigns for maximum ROI</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1   btn-round mx-auto">
+              <img src="./images/icon/new/gmb.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-mail" class="stretched-link scroll">Google
+                My Business Training
+              </a></p>
+            <p class="py-2 p-left-aligned">
+              Want to get your business found on Google and attract more local customers? Our Google My Business
+              Training Course has got you covered! You'll learn how to:
+            </p>
+            <ul>
+              <li>Create a Google My Business profile that stands out</li>
+              <li>Optimize your listing for local search</li>
+              <li>Respond to customer reviews and inquiries</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1   btn-round mx-auto">
+              <img src="./images/icon/new/shop.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-cloud"
+                class="stretched-link scroll">E-commerce Marketing Training
+              </a></p>
+            <p class="py-2 p-left-aligned">
+              Ready to take any online store to the next level? Check out our E-commerce Marketing Training Course! In
+              just a few short weeks, you'll learn how to:
+            </p>
+            <ul>
+              <li> Optimize your website for maximum sales</li>
+              <li>Create effective email marketing campaigns</li>
+              <li>Use social media to drive traffic and conversions</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1   btn-round mx-auto">
+              <img src="./images/icon/new/design.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-vault" class="stretched-link scroll">
+                Graphic Designing Course
+              </a></p>
+            <p class="py-2 p-left-aligned">
+              Want to create stunning visuals that captivate your audience and bring your brand to life? Nidmm's Graphic
+              Designing Course is the perfect place to start! You will learn how to:
+            </p>
+            <ul>
+              <li>Use industry-standard tools and software to design professional graphics </li>
+              <li>Develop a keen eye for colour, composition, and typography</li>
+              <li>Create visual content for your website, social media, and marketing campaigns</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card card-body text-center card-c shadow h-100 ads-courses">
+            <div class="p-1   btn-round mx-auto">
+              <img src="./images/icon/new/youtube.svg" style="width:64px" alt="">
+            </div>
+            <p class="fs-4 h2 fw-bold border-bottom-100 pt-3"><a href="#nfc-vault" class="stretched-link scroll">Youtube
+                Training Course</a></p>
+            <p class="py-2 p-left-aligned">
+              Ready to become a YouTube superstar and grow your business with engaging video content? Nidmm's YouTube
+              Training Course is here to help! In just a few short weeks, you'll learn how to:
+            <ul>
+              <li>Create compelling video content that gets noticed</li>
+              <li>Optimize your videos for maximum views and engagement</li>
+              <li>Build a loyal audience and community</li>
+              <li>And much more!</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-bg-dark">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h6 class="f700 text-center h2 text-light text-blue" style="padding: 30px 10px;"> <span>India's Top Digital
+              Marketing Institute</span><br>Where Marketing Meets Innovation</h6>
+          <!-- <h6 class="text-dark" style="font-size:24px;">Where Marketing Meets Innovation</h6> -->
+          <h5 style="padding: 30px 20px; font-family: Roboto;">
+            Discover the Endless Possibilities of Digital Marketing and Take Your Career to New Heights.
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white pt-4 pb-5">
+    <div class="container">
+      <p class=" h3 tools-covered fw-bold text-orange text-center mb-5 ">Our <span class=" text-dark">Founder</span>
+      </p>
+      <div class="row">
+        <div class="col-6 text-center raja-img-container">
+          <img class="img-fluid raja-img" src="./images/landing page.jpg" alt="">
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12  text-center">
+          <h4 class="text-dark pb-5 pt-5" style="font-size:32px;">Raja Shukla</h4>
+          <p class="text-justify text-dark">
+            Raja Shukla founded NIDMM with a mission to make high-quality digital education accessible to the masses and
+            help them prepare for careers in this highly competitive industry.
+          </p> <br>
+          <p class="text-justify text-dark">
+            The institute offers comprehensive training programs that provide students with hands-on experience,
+            allowing them to work on Live Projects at National Marketing Projects, NIDMM's sister company.
+          </p> <br>
+          <p class="text-justify text-dark">
+            Following the successful empowerment of individuals in metropolitan cities, Raja Shukla is now focused on
+            transforming lives in Tier II cities by bringing world-class digital marketing education to these regions.
+          </p>
+          <br>
+          <p class="text-justify text-dark">
+            His long-term vision is to establish digital marketing institutions throughout India that can serve as
+            global leaders in the field, producing highly skilled professionals capable of meeting industry demands.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bg-dark pt-4 pb-5">
+    <div class="container">
+      <p class=" h3 tools-covered fw-bold text-orange text-center mb-5 ">Our <span class=" text-light">Mentors</span>
+      </p>
+      <div class="row">
+        <div class="col-6 mentor-card">
+          <div class="card-wrapper p-5">
+            <img src="./images/team1.png" alt="" width="256px">
+            <h4 class="text-dark">Pushpraj Dwivedi</h4>
+            <h6 class="text-dark">Muisc Producer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa possimus unde, eaque id deserunt
+              minima
+              amet tempora accusantium quos eos magni tempore fuga. Consequatur molestiae possimus impedit quas aliquid!
+            </p> <br>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto vero aspernatur, mollitia at dolore
+              ut ullam velit pariatur est natus soluta molestias ipsam modi ducimus? Praesentium nam quaerat quibusdam
+              aliquid.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-6 mentor-card">
+          <div class="card-wrapper p-5">
+            <img src="./images/team1.png" alt="" width="256px">
+            <h4 class="text-dark">Pushpraj Dwivedi</h4>
+            <h6 class="text-dark">Muisc Producer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa possimus unde, eaque id deserunt
+              minima
+              amet tempora accusantium quos eos magni tempore fuga. Consequatur molestiae possimus impedit quas aliquid!
+            </p> <br>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto vero aspernatur, mollitia at dolore
+              ut ullam velit pariatur est natus soluta molestias ipsam modi ducimus? Praesentium nam quaerat quibusdam
+              aliquid.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="bg-blue pt-5 pb-5 certificate-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 certificate-c">
+          <h4>Industry Recognized Certification from NIDMM and NMP</h4>
+          <p class="text-white pt-3">
+            By the end of this extensive online digital marketing course, you will be able to crack the Google Ad
+            Fundamental certification and receive a certificate of completion from NIDMM.
+          </p>
+          <p class="text-white pt-5">
+            All major Digital marketing agencies and brands have recognized NIDMM as the top digital marketing training
+            institute. As NIDMM alumni, you will benefit from this strong corporate network.
+          </p>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 certificate-i img-fluid">
+          <img src="./images/certificate-nidmm.jpeg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-bg-white">
+    <!-- Start: 1 Row 3 Columns -->
+    <div class="container">
+      <div class="row">
+        <p class="fw-bold h2 text-center mt-4">Why Choose <span class="text-orange">NIDMM </span><br></p>
+        <p class="text-center mb-5">At NIDMM, we shape dreams into reality<br></p>
+        <div class="col-lg-6">
+          <div class=" text-center ">
+            <div class="  p-3 border-bottom">
+              <img class=" .ico-img" style="width:64px" src="./images/icon/new/100-percent.svg">
+              <h4 class="text-dark">100% job guarantee<br></h4>
+              <p>You should choose our institute because of its 100% job guarantee, which assures students of getting
+                placed in the industry upon completion of their program.<br></p>
+            </div>
+            <hr width="50%" style="margin:auto;">
+          </div>
+          <div class=" text-center">
+            <div class=" p-3 "><img class=" .ico-img" style="width:64px" src="./images/icon/new/certificate.svg">
+              <h4 class="text-dark">Certifications<br></h4>
+              <p>Get- industry-recognized certification from NIDMM.
+                <br>
+              </p>
+            </div>
+            <hr width="50%" style="margin:auto;">
+          </div>
+
+          <div class=" text-center">
+            <div class=" p-3 "><img class=" .ico-img" style="width:64px" src="./images/icon/new/syllabus.svg">
+              <h4 class="text-dark">Updated syllabus with 2500+ of training
+                <br>
+              </h4>
+              <!-- <p>Growth In Marketing Jobs<br></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 whychoose">
+          <img src="./images/why-choose.png" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=" section-bg-white pt-4 pb-2">
+    <div class="container pb-5">
+      <p class="h3 tools-covered fw-bold text-dark text-center mb-5">Tools <span class=" text-orange"> Covered </span>
+      </p>
+      <div class="customer-logos slider ">
+        <div class="slide"><img src="./images/tools/tools-01.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-02.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-03.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-04.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-05.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-06.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-07.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-08.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-09.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-10.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-11.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-12.webp"></div>
+      </div>
+      <div class="customer-logos slider mt-5">
+        <div class="slide"><img src="./images/tools/tools-13.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-14.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-15.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-16.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-17.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-18.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-19.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-20.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-21.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-22.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-23.webp"></div>
+        <div class="slide"><img src="./images/tools/tools-24.webp"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+
+  <section class="splide testimonial-splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <div class="test-item text-black">
+            <span><img src="images/person-1.jpg" alt="" width="128px" style="border-radius: 50%;"></span>
+            <h4 class="t-name text-black pt-3">User Name </h5>
+              <!-- <h6 class="t-des text-black">Web Designer </h6> -->
+              Regarding time commitment and working toward completing the certification, the NIDMM has
+              been
+              extremely supportive. The instructors were knowledgeable and passionate. The Digital Marketing Training
+              program covered a wide range of topics and provided hands-on experience. I feel
+              confident in my ability to apply what I learned to my current job and future
+              career aspirations.
+          </div>
+        </li>
+        <li class="splide__slide">
+          <div class="test-item text-black">
+            <span><img src="images/person-1.jpg" alt="" width="128px" style="border-radius: 50%;"></span>
+            <h4 class="t-name text-black pt-3">User Name </h5>
+              <!-- <h6 class="t-des text-black">Web Designer </h6> -->
+              During my six-month certification with this institution, I learned a lot about digital
+              marketing. I gained a lot of knowledge. I found the tutors to be very helpful
+              and
+              friendly whenever I had questions. Everything was done offline, so I could study
+              when
+              and where I wanted. Any student seeking further education should consider this
+              institute.
+          </div>
+        </li>
+        <li class="splide__slide">
+          <div class="test-item text-black">
+            <span><img src="images/person-1.jpg" alt="" width="128px" style="border-radius: 50%;"></span>
+            <h4 class="t-name text-black pt-3">User Name </h5>
+              <!-- <h6 class="t-des text-black">Web Designer </h6> -->
+              It has been a pleasure working with the Digital Marketing Institute. In very
+              helpful
+              ways, it certifies digital marketing professionals internationally. They offered
+              engaging, multisensory, state-of-the-art, and individualized lesson plans.
+              Highly
+              Recommended!
+          </div>
+        </li>
+        <li class="splide__slide">
+          <div class="test-item text-black">
+            <span><img src="images/person-1.jpg" alt="" width="128px" style="border-radius: 50%;"></span>
+            <h4 class="t-name text-black pt-3">User Name </h5>
+              <!-- <h6 class="t-des text-black">Web Designer </h6> -->
+              I recently completed a digital marketing program at the NIDMM and it was truly a transformative
+              experience. The study material was up-to-date and relevant, and the instructors
+              were knowledgeable and passionate about the subject. I highly recommend the
+              Digital Marketing Institute to anyone looking to advance their career in digital
+              marketing.
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="splide__progress">
+      <div class="splide__progress__bar">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- /testimonials -->
+  <section class="section-bg-light">
+    <!-- form -->
+    <div class="container py-5 mt-0 text-center getintouch  " id="register">
+      <div class="row justify-content-center ">
+        <div class="col-lg-6 confused">
+          <img src="./images/confused.png" alt="" class="img-fluid confused">
+        </div>
+        <div class="col-lg-6">
+          <div class="card card-body p-5 icon-shadow">
+            <h4 class="text-white">Are you still confused about what to choose? <br> </h4>
+            <p class="f700 h2 mb-4 text-white ">Let us help you.<span class="text-orange"> </span>
+            </p>
+            <div id="response" style="display:none;" class="alert alert-warning mb-3"></div>
+            <form id="formail" class="contact-form" action="mail.php" method="post" role="form">
+              <div class="row">
+                <div class="form-group mb-2 ">
+                  <input type="text" id="name" name="name" placeholder="Name*" class="form-control" maxlength="70">
+                </div>
+                <div class="form-group mb-2 ">
+                  <input type="text" id="email" name="email" placeholder="Email*" class="form-control" maxlength="70">
+                </div>
+              </div>
+              <div class="form-group mb-2">
+                <input type="text" id="contact" name="phone" placeholder="Contact No*" class="form-control"
+                  maxlength="13">
+              </div>
+              <p class="form-group text-center pt-3">
+                <input type="submit" class="btn text-light btn-block" name="submit" value="Submit"
+                  style="margin:0; padding:0;">
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /from -->
+  </section>
+
+  <section class="bg-light pb-5">
+    <div class="container">
+      <div class="row faq-h">
+        <h2 style="text-align:center;" class="text-dark bg-light pt-5 pb-4">Frequently Asked Questions </h2>
+        <button class="accordion " style="text-align:left">Can I undergo digital marketing training online?</button>
+        <div class="panel">
+          <p>Yes, digital marketing training can be in any format including online, but a hybrid course will help you
+            apply your learnings practically. NIDMM's Online Digital Marketing Course follows a hybrid format that
+            consists of comprehensive online lectures, live sessions, one-on-one mentoring, and even includes in-class
+            presentations to be presented offline.</p>
+        </div>
+
+        <button class="accordion " style="text-align:left">Is a digital marketing certificate worth it?</button>
+        <div class="panel">
+          <p>Yes, a certificate in digital marketing from institutes like NIDMM is worth it because it will help you add
+            value to your CV and it also serves as a testament to your knowledge received during the course.</p>
+        </div>
+
+        <button class="accordion " style="text-align:left">Is digital marketing a good career?</button>
+        <div class="panel">
+          <p>As per statistics, the digital marketing industry is expected to grow substantially. Subsequently, a career
+            in digital marketing promises high-paying salary packages and placement opportunities across the globe.
+            Hence, a digital marketing career would be highly beneficial.</p>
+        </div>
+
+        <button class="accordion " style="text-align:left">What is the eligibility criteria for NIDMM's Online Digital
+          Marketing Course?</button>
+        <div class="panel">
+          <p>The eligibility criteria is 12th Grade Pass (10+2) with a minimum of 50% marks in aggregate or equivalent.
+            However, any individual who is 16 years and above can also apply for the program. To know more, get in touch
+            with our counselors.</p>
+        </div>
+
+        <button class="accordion " style="text-align:left">What is the salary package one can expect after completion of
+          the course?</button>
+        <div class="panel">
+          <p>A fresher above the age of 21 years can expect a salary between 2L and 4L per annum. Note: This is subject
+            to change based on the country, industry, candidate's profile and level of experience. For more information,
+            click here .</p>
+        </div>
+
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <div class="background-color bg-dark">
+    <div class="container py-4">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 text-center">
+          <p class="h4 text-white"><strong> HURRY UP!!!</strong> Limited Seats, Offer is Ending <strong> Soon </strong>
+          </p>
+        </div>
+        <!-- <div class="col-lg-2 text-center">
+          <p> <a href="#register" class="btn btn-light rounded-5 p-2 mb-2">
+              Get Now</a></p>
+        </div> -->
+        <!-- <div class="col-lg-2 text-center">
+          <a href="https://nidmm.com/terms.html" target="_blank" class="btn btn-light rounded-5 p-2 mb-2">Terms &amp;
+            Conditions</a>
+        </div> -->
+        <div class="col-lg-6 text-center">
+          <p> <a href="https://nidmm.com/privacy-policy.html" target="_blank" class="btn btn-light rounded-5 p-2">
+
+              <use xlink:href="#icon-buy" fill="#fff"></use>
+              Get Now
+            </a></p>
+
+        </div>
+      </div>
+      <div class="row">
+
+      </div>
+    </div>
+  </div>
+
+  <a href="https://wa.me/+919909920992" style="font-size: 35px; position: fixed; width: 60px; height: 60px; bottom: 60px; right: 60px; background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center; box-shadow: 2px 2px 3px #999;
+  z-index: 100;" target="blank"><i style="    margin-top: 14px;
+  padding: 0px; padding-right: 0px;" class="fa fa-whatsapp"></i></a>
+
+  <script src="./js/landingpage.js"></script>
+  <script src="../js/testimonials.js"></script>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-migrate-3.0.0.js"></script>
+  <!-- Popper JS -->
+  <script src="../js/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="../js/bootstrap.min.js"></script>
+  <!-- Modernizr JS -->
+  <script src="../js/modernizr.min.js"></script>
+  <!-- ScrollUp JS -->
+  <script src="../js/scrollup.js"></script>
+  <!-- FacnyBox JS -->
+  <script src="../js/jquery-fancybox.min.js"></script>
+  <!-- Cube Portfolio JS -->
+  <script src="../js/cubeportfolio.min.js"></script>
+  <!-- Slick Nav JS -->
+  <script src="../js/slicknav.min.js"></script>
+  <!-- Way Points JS -->
+  <script src="../js/waypoints.min.js"></script>
+  <!-- CounterUp JS -->
+  <script src="../js/jquery.counterup.min.js"></script>
+  <!-- Slick Nav JS -->
+  <script src="../js/slicknav.min.js"></script>
+  <!-- Slick Slider JS -->
+  <script src="../js/owl-carousel.min.js"></script>
+  <!-- Easing JS -->
+  <!-- Theme Option JS -->
+  <script src="../js/theme-option.js"></script>
+  <!-- Magnipic Popup JS -->
+  <script src="../js/magnific-popup.min.js"></script>
+  <!-- Active JS -->
+  <script src="../js/active.js"></script>
+  <script src="/../js/testimonials.js"></script>
+  <script src="./splide.min.js"></script>
+
+
+  <script>
+    import Splide from '@splidejs/splide';
+
+
+    new Splide('.splide').mount();
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide');
+      splide.mount();
+    });
+  </script>
+
+
+
+  <!-- popup -->
+  <script src="js/popup.js"></script>
+  <!-- /end popup -->
+
+
+
+
+
+
+</body>
+
+</html>

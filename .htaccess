@@ -1,0 +1,113 @@
+RewriteEngine On
+
+# Redirect HTTP to HTTPS, excluding specific directories
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/ads/ [NC]  # Exclude /ads/ directory
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]  # Exclude /blog/ directory
+RewriteCond %{REQUEST_URI} !^/css/ [NC]  # Exclude /css/ directory
+RewriteCond %{REQUEST_URI} !^/doc/ [NC]  # Exclude /doc/ directory
+RewriteCond %{REQUEST_URI} !^/img/ [NC]  # Exclude /img/ directory
+RewriteCond %{REQUEST_URI} !^/inc/ [NC]  # Exclude /inc/ directory
+RewriteCond %{REQUEST_URI} !^/js/ [NC]  # Exclude /js/ directory
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.nidmm\.in$
+RewriteRule ^(.*)$ https://nidmm.in/$1 [R=301,L]
+
+# Redirect index.html to root
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*)index\.html\ HTTP/
+RewriteRule index\.html$ https://nidmm.in/%1 [R=301,L]
+
+# Redirect specific URLs
+RewriteRule ^digital-marketing-course/diploma.php$ /digital-marketing-diploma-course.php [R=301,L]
+RewriteRule ^digital-marketing-course$ /digital-marketing-course-in-dwarka.php [R=301,L]
+
+# Permanent redirect /index.php to root
+Redirect 301 /index.php /
+
+DirectoryIndex index.php
+
+######## |CODE ADDED ON 23-05-2023| #########
+
+# Remove trailing slash, excluding specific directories
+RewriteCond %{REQUEST_URI} !^/ads/ [NC]  # Exclude /ads/ directory
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]  # Exclude /blog/ directory
+RewriteCond %{REQUEST_URI} !^/css/ [NC]  # Exclude /css/ directory
+RewriteCond %{REQUEST_URI} !^/doc/ [NC]  # Exclude /doc/ directory
+RewriteCond %{REQUEST_URI} !^/img/ [NC]  # Exclude /img/ directory
+RewriteCond %{REQUEST_URI} !^/inc/ [NC]  # Exclude /inc/ directory
+RewriteCond %{REQUEST_URI} !^/js/ [NC]  # Exclude /js/ directory
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !\.(css|js|jpg|jpeg|png|gif|ico|svg|mp4|webp|webm|ogg|mp3|wav|flac|map|aac)$
+RewriteRule ^(.+)/.+$ /$1 [L,R=301]
+
+# Remove trailing slash, excluding specific directories
+RewriteCond %{REQUEST_URI} !^/ads/ [NC]  # Exclude /ads/ directory
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]  # Exclude /blog/ directory
+RewriteCond %{REQUEST_URI} !^/css/ [NC]  # Exclude /css/ directory
+RewriteCond %{REQUEST_URI} !^/doc/ [NC]  # Exclude /doc/ directory
+
+
+
+##|BACKUP |########################################################################
+##
+##RewriteEngine On
+##
+##RewriteCond %{HTTPS} off
+##RewriteCond %{REQUEST_URI} !^/ads/ [NC]
+##RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+##
+##RewriteCond %{HTTP_HOST} ^www\.nidmm\.in$
+##RewriteRule ^(.*)$ https://nidmm.in/$1 [R=301,L]
+##
+##RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*)index\.html\ HTTP/
+##RewriteRule index\.html$ https://nidmm.in/%1 [R=301,L]
+##
+##RewriteRule ^digital-marketing-course/diploma.php$ /digital-marketing-diploma-course.php [R=301,L]
+##
+##RewriteRule ^digital-marketing-course$ /digital-marketing-course-in-dwarka.php [R=301,L]
+##
+##Redirect 301 /index.php /
+##
+##DirectoryIndex index.php
+##
+########## |CODE ADDED ON 23-05-2023| #########
+##RewriteCond %{REQUEST_URI} !^/ads/ [NC]
+##RewriteCond %{REQUEST_URI} !^/$
+##RewriteCond %{REQUEST_URI} !\.(css|js|jpg|jpeg|png|gif|ico|svg|mp4|webp|webm|ogg|mp3|wav|flac|zzaac)$
+##RewriteRule ^(.+)/.+$ /$1 [L,R=301]
+##RewriteRule ^(.+)/$ /$1 [L,R=301]
+##
+##
+##
+##
+##;; |OLD RULES|
+##
+##; RewriteEngine On
+##; RewriteCond %{HTTPS} off
+##; RewriteCond %{REQUEST_URI} !^/ads/digital-marketing-course
+##; RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+##; 
+##; RewriteCond %{HTTP_HOST} ^www\.nidmm\.in$
+##; RewriteRule ^(.*)$ https://nidmm.in/$1 [R=301,L]
+##; 
+##; RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(([^/]+/)*)index\.html\ HTTP/
+##; RewriteRule index\.html$ https://nidmm.in/%1 [R=301,L]
+##; 
+##; RewriteRule ^digital-marketing-course/diploma.php$ /digital-marketing-diploma-course.php [R=301,L]
+##; 
+##; RewriteRule ^digital-marketing-course$ /digital-marketing-course-in-dwarka.php [R=301,L]
+##; Redirect 301 /index.php /
+##; 
+##; DirectoryIndex index.php
+##;  
+##; ######## |CODE ADDED ON 23-05-2023| #########
+##; 
+##; # Exclude specific file types from the redirection rule
+##; ######## |CODE ADDED ON 23-05-2023| #########
+##; RewriteCond %{REQUEST_URI} !^/ads/digital-marketing-course
+##; RewriteCond %{REQUEST_URI} !^/$
+##; RewriteCond %{REQUEST_URI} !\.(css|js|jpg|jpeg|png|gif|ico|svg|mp4|webp|webm|ogg|mp3|wav|flac|aac)$
+##; RewriteRule ^(.+)/.+$ /$1 [L,R=301]
+##; RewriteRule ^(.+)/$ /$1 [L,R=301]

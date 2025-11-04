@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop Up - Using Javascript</title>
+</head>
+
+<body>
+
+  <!--  -->
+  <h1>
+    jQuery popup CSS with YouTube video</h1>
+  <button id="popup__toggle">Open popup!</button>
+  <div class="popup__overlay">
+    <div class="popup">
+      <a href="#" class="popup__close">X</a>
+
+      <form action="">
+        <input type="email" placeholder="email ">
+        <input type="email" placeholder="email ">
+        <input type="email" placeholder="email ">
+        <input type="email" placeholder="email ">
+        <input type="email" placeholder="email ">
+        <input type="email" placeholder="email ">
+      </form>
+    </div>
+  </div>
+
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.6.4'
+    type='text/javascript'> </script>
+
+  <style>
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100%;
+      background: #fff;
+      font: 14px/125% Tahoma;
+      text-align: center;
+    }
+
+    .popup__overlay {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(4, 174, 255, 0.95);
+      text-align: center;
+      z-index: 100;
+
+    }
+
+    .popup__overlay:after {
+      display: inline-block;
+      height: 100%;
+      width: 0;
+      vertical-align: middle;
+      content: "";
+    }
+
+    .popup {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 640px;
+      max-height: 480px;
+      padding: 20px;
+      border: 1px solid black;
+      background: #C8102E;
+      color: #fff;
+      vertical-align: middle;
+    }
+
+    .popup-form__row {
+      margin: 1em 0;
+
+    }
+
+    .popup__close {
+      display: block;
+      position: absolute;
+      top: 1px;
+      right: 1px;
+      width: 12px;
+      height: 12px;
+      padding: 8px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 20px;
+      line-height: 12px;
+      color: #ffff00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      outline: 1px solid #C8102E;
+    }
+
+    /* other styles */
+
+    button {
+      border: none;
+      padding: 0.5em;
+      background-color: #C8102E;
+      font-size: 1.4em;
+      color: #fff;
+
+    }
+
+    ul {
+      text-align: left;
+      display: inline-block;
+    }
+  </style>
+
+
+
+
+  <script>
+    var player = null;
+    var tag = document.createElement("script");
+    tag.id = "iframe-api";
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName("script")[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player("existing-iframe-example");
+    }
+
+    var elPopupClose = $(".popup__close");
+    var elPopupOverlay = $(".popup__overlay");
+    var elPopupToggle = $("#popup__toggle");
+
+    // @see https://developers.google.com/youtube/iframe_api_reference#Playback_controls
+    // @see http://stackoverflow.com/questions/8667882/how-to-pause-a-youtube-player-when-hiding-the-iframe
+    function popupDidClose() {
+      if (player !== null) {
+        player.pauseVideo();
+      }
+    }
+
+    elPopupClose.click(function () {
+      elPopupOverlay.css({ display: "none", visibility: "hidden", opacity: 0 });
+      popupDidClose();
+    });
+
+    elPopupOverlay.click(function (event) {
+      event = event || window.event;
+      if (event.target === this) {
+        elPopupOverlay.css({ display: "none", visibility: "hidden", opacity: 0 });
+        popupDidClose();
+      }
+    });
+
+    elPopupToggle.click(function () {
+      elPopupOverlay.css({ display: "block", visibility: "visible", opacity: 1 });
+    });
+
+  </script>
+
+
+
+
+
+
+  <!--  -->
+
+  <!-- <h1>
+    Pop Up Javascript
+  </h1>
+  <button data-modal-target="#modal">Open Model</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Example Modal</div>
+      <button data-close-button class="close-button">
+        &times;
+      </button>
+    </div>
+    <div class="modal-body">
+      hello world
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+  <style>
+    *,
+    *::after,
+    *::before {
+      box-sizing: border-box;
+    }
+
+    .modal {
+      position: fixed;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%) scale(0);
+      transition: 200ms ease-in-out;
+      border: 1px solid black;
+      border-radius: 10px;
+      z-index: 10;
+      background-color: rgb(255, 255, 255);
+      width: 500px;
+      max-width: 80%;
+    }
+
+    .modal.active {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .modal-header {
+      padding: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid black;
+    }
+
+    .modal-header .title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .modal-header .close-button {
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .modal-body {
+      padding: 10px 15px;
+    }
+
+    #overlay {
+      position: fixed;
+      opacity: 0;
+      transition: 200ms ease-in-out;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      pointer-events: none;
+    }
+
+    #overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+  </style>
+  <script>
+    const openModalButtons = document.querySelectorAll('[data-modal-target]')
+    const closeModalButtons = document.querySelectorAll('[data-close-button]')
+    const overlay = document.getElementById('overlay')
+
+    openModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        openModal(modal)
+      })
+    })
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+      })
+    })
+    overlay.addEventListener('click', () => {
+      const modals = document.querySelectorAll('.modal.active')
+      modals.forEach(modal => {
+        closeModal(modal)
+      })
+    })
+    function openModal(modal) {
+      if (modal == null) return
+      modal.classList.add('active')
+      overlay.classList.add('active')
+
+    }
+    function closeModal(modal) {
+      if (modal == null) return
+      modal.classList.remove('active')
+      overlay.classList.remove('active')
+
+    }
+  </script> -->
+</body>
+
+</html>
